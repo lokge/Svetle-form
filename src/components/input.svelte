@@ -36,12 +36,6 @@
                         errorMessage = 'Enter the correct email address.';
                     }
                     break;
-                case 'tel':
-                    if (!/^\d{10}$/.test(mainInput.value)) {
-                        isValid = false;
-                        errorMessage = 'Enter the correct phone number.';
-                    }
-                    break;
             }
         }
 
